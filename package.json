@@ -1,7 +1,7 @@
 {
   "name": "html-print-element",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "html element printing",
   "author": "Andreev Michael (https://www.linkedin.com/in/mikhail-andreev-2741b8209/)",
   "type": "module",
@@ -25,7 +25,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "publish": "npm run build && npm publish"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
