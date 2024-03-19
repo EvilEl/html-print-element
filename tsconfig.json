@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "ES6",
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "declarationMap": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "target": "ES2016",
+    "noErrorTruncation": true,
+    "moduleResolution": "node"
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "include": ["src/lib/**/*"]
+}
