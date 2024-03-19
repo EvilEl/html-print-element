@@ -13,6 +13,13 @@
     "print div"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvilEl/html-print-element"
+  },
+  "bugs": {
+    "url": "https://github.com/EvilEl/html-print-element/issues"
+  },
   "main": "dist/index.js",
   "files": [
     "dist"
